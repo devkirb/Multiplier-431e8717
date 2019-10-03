@@ -11,5 +11,5 @@ if (!empty($bruh)) {
   readline_add_history($bruh);
 }
 echo "> Uw resultaat is: ";
-echo ($line + $bruh);
+echo ($line * $bruh);
 ?>
